@@ -9,6 +9,10 @@ This repo contains our code and experiments for the final project for COMPSCI 68
 3. Jiachang Situ (jiachangsitu@umass.edu)
 4. Tenzin Nanglo (tnanglo@umass.edu)
 
+# Drive link (Code and data)
+
+https://drive.google.com/drive/folders/176_V3hUNBvwdqw9WeYJjHSQNn8fY7Q2K?usp=sharing
+
 # Content
 
 0. `Baseline.ipynb`: This contains our initial experiments with very simple models built using RNNs with Attention Mechanisms to see that we are on the right track.
@@ -27,3 +31,5 @@ This repo contains our code and experiments for the final project for COMPSCI 68
 4. `finetune parallel jiachang.ipynb` and `Ala non parallel data model opt.ipynb` contains our experiments for fine-tuning our T5 model on the pseudo-parallel dataset. We ran several experiments here and our best model was trained for 10 epochs using `lr=5e-5` and `batch_size=8`.
 
 5. `Test Classifier.ipynb`: First in other notebooks we feed our testing data to our two models (parallel vs non-parallel) then we run our classifier on the generated output. Here our classifier is evaluating how good the model is. Our parallel model got 83% and our non-parallel got 44.6%.
+
+6. Our code and analysis for Evaluation metrics can be found under the "Evaluation" folder. Here we did all the analysis and computation for fluency, sentence similarity and others.
